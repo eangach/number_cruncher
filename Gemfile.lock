@@ -1,11 +1,13 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    json (1.8.1)
     rack (1.6.0)
     rack-protection (1.5.3)
       rack
     rack-test (0.6.3)
       rack (>= 1.0)
+    rake (10.1.0)
     sinatra (1.4.6)
       rack (~> 1.4)
       rack-protection (~> 1.4)
@@ -16,5 +18,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  json
   rack-test
+  rake
   sinatra
